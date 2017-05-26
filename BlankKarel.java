@@ -10,7 +10,7 @@
 
 import stanford.karel.*;
 
-public class BlankKarel extends Karel {
+public class BlankKarel extends SuperKarel {
 	public void run() {
 		move();
 	}
