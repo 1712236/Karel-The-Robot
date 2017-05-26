@@ -8,12 +8,11 @@
  * run, it would try to load BlankKarel.w if there is one.
  */
 
-import acm.program.*;
 import stanford.karel.*;
 
 public class BlankKarel extends Karel {
 	public void run() {
-		/* You fill this in */
+		move();
 	}
 }
 
