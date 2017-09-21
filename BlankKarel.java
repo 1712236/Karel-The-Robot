@@ -12,7 +12,7 @@ import stanford.karel.*;
 
 public class BlankKarel extends SuperKarel {
 	public void run() {
-		for (int i = 0; i < 3; i++) {
+		for (int i = 0; i < 9; i++) {
 			move();
 			turnLeft();	
 		}
