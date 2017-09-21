@@ -25,10 +25,7 @@ public class BlankKarel extends SuperKarel {
 			move();
 		}
 		turnRight();
-		turnLeft();
-		for(int l = 0; l < 9; l++) {
-			move();
-		}
+		
 		
  }
 }
