@@ -20,6 +20,7 @@ public class BlankKarel extends SuperKarel {
 			
 		}
 		turnRight();
+		turnLeft();
 	}
 }
 
