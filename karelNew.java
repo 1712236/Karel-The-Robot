@@ -1,6 +1,6 @@
 import stanford.karel.SuperKarel;
 
-public class karelNew extends karel {
+public class karelNew extends karelNew {
 	public void run() {
     for (int k = 0; k < 5; k++) {
 		turnLeft();
