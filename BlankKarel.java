@@ -13,34 +13,36 @@ import stanford.karel.*;
 public class BlankKarel extends SuperKarel {
 	public void run() {
 		turnLeft();
-		for (int i = 0; i < 9; i++) {
+		for (int f = 0; f < 2; f++) {
+			for (int i = 0; i < 9; i++) {
+				move();
+			}
+			turnRight();
 			move();
-		}
-		turnRight();
-		move();
-		turnRight();
-		for (int k = 0; k < 9; k++) {
+			turnRight();
+			for (int k = 0; k < 9; k++) {
+				move();
+			}
+			turnLeft();
 			move();
-		}
-		turnLeft();
-		move();
-		turnLeft();
-		for (int k = 0; k < 9; k++) {
+			turnLeft();
+			for (int k = 0; k < 9; k++) {
+				move();
+			}
+			turnRight();
 			move();
-		}
-		turnRight();
-		move();
-		turnRight();
-		for (int k = 0; k < 9; k++) {
+			turnRight();
+			for (int k = 0; k < 9; k++) {
+				move();
+			}
+			turnLeft();
 			move();
+			turnLeft();
+			for (int k = 0; k < 9; k++) {
+				move();
+			}
+			turnRight();
 		}
-		turnLeft();
-		move();
-		turnLeft();
-		for (int k = 0; k < 9; k++) {
-			move();
-		}
-		turnRight();
 		
  }
 }
