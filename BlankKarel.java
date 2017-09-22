@@ -36,6 +36,7 @@ public class BlankKarel extends SuperKarel {
 		}
 		turnLeft();
 		move();
+		turnRight();
 		
  }
 }
