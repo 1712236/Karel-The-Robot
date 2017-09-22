@@ -1,6 +1,6 @@
 import stanford.karel.*;
 
-public class karelNew extends karel {
+public class karelNew extends SuperKarel {
 	public void run() {
 		move();
 	}
