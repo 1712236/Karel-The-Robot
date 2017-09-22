@@ -26,7 +26,5 @@ public class BlankKarel extends SuperKarel {
 		turnLeft();
 		move();	
     }		
-    
  }
-	turnOff();
 }
