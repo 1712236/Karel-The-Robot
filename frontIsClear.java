@@ -1,4 +1,4 @@
-import stanford.karel.SuperKarel;
+import stanford.karel.*;
 
 public class frontIsClear extends SuperKarel {
 	public void run() {
