@@ -2,7 +2,8 @@ import stanford.karel.*;
 
 public class frontIsBlocked extends SuperKarel {
 	public void run() {
-		while(frontIsBlocked()){
+		putBeeper();
+		while(frontIsClear()){
 			turnLeft();
 		}
 	}
