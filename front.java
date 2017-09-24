@@ -8,7 +8,7 @@ public class front extends SuperKarel {
 				move();
 			}
 			turnLeft();
-			move();
+			
 		}
 	}
 }
