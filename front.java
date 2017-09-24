@@ -7,6 +7,9 @@ public class front extends SuperKarel {
 				putBeeper();
 				move();
 			}
+			while (noBeepersPresent) {
+				putBeeper();
+			}
 			putBeeper();
 			turnLeft();
 			move();
