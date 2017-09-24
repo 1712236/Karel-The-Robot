@@ -32,7 +32,6 @@ public class try1 extends SuperKarel {
 			}
 		}
 	}
-	
 	private void east() {
 		turnLeft();
 		move();
@@ -60,5 +59,4 @@ public class try1 extends SuperKarel {
 			turnLeft();
 		}
 	}
-	
 }
