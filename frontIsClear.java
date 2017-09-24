@@ -8,7 +8,7 @@ public class frontIsClear extends SuperKarel {
 			if(noBeepersPresent()){
 				putBeeper();
 			} else {
-				putBeeper();
+				;
 			}
 			move();
 		}
