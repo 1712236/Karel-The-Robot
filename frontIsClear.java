@@ -9,7 +9,6 @@ public class frontIsClear extends SuperKarel {
 			} else {
 				putBeeper();
 			}
-			putBeeper();
 		}
 	}
 }
