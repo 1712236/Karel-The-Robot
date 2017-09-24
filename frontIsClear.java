@@ -5,15 +5,12 @@ public class frontIsClear extends SuperKarel {
 		
 		while(frontIsClear()){
 			
-			if(beepersPresent()){
+			if(noBeepersPresent()){
 				;
 			} else {
 				putBeeper();
 			}
 			move();
-			while (frontIsBlocked()) {
-				putBeeper();
-			}
 		}
 	}
 }
