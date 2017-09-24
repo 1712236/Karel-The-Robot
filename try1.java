@@ -38,6 +38,7 @@ public class try1 extends SuperKarel {
 		}
 		west();
 		east();
+		west();
 	}
 	
 	
