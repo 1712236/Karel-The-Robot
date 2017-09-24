@@ -12,5 +12,6 @@ public class frontIsClear extends SuperKarel {
 			}
 			move();
 		}
+	putBeeper();
 	}
 }
