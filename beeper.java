@@ -6,8 +6,7 @@ public class beeper extends SuperKarel {
 			move();
 			while (frontIsBlocked()) {
 				turnLeft();
-				move();
-				turnLeft();
+				
 			}
 		}
 			}
