@@ -38,6 +38,8 @@ public class try1 extends SuperKarel {
 		}
 		west();
 	}
+	
+	
 	private void west() {
 		turnRight();
 		move();
