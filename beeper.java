@@ -2,7 +2,7 @@ import stanford.karel.*;
 
 public class beeper extends SuperKarel {
 	public void run() {
-		while (frontIsClear()) {
+		while (frontIsClear() || noBeepersPresent()) {
 			move();
 			pickBeeper();
 			while (frontIsBlocked()) {
