@@ -11,6 +11,9 @@ public class frontIsClear extends SuperKarel {
 				putBeeper();
 			}
 			move();
+			while (frontIsBlock()) {
+				putBeeper();
+			}
 		}
 	}
 }
