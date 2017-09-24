@@ -10,6 +10,10 @@ public class putbeeper extends SuperKarel {
 			else {
 				pickBeeper();
 			}
+			if (frontIsBlocked()) {
+				turnLeft();
+				move();
+			}
 		}
 	}
 }
