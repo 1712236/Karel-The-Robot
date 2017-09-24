@@ -6,7 +6,7 @@ public class frontIsClear extends SuperKarel {
 		while(frontIsClear()){
 			
 			if(noBeepersPresent()){
-				;
+				putBeeper();
 			} else {
 				putBeeper();
 			}
