@@ -55,5 +55,10 @@ public class try1 extends SuperKarel {
 			}
 		}
 	}
+	private void finish() {
+		for (int k = 0; k < 6; k++) {
+			turnLeft();
+		}
+	}
 	
 }
