@@ -17,3 +17,13 @@ public class putbeeper extends SuperKarel {
 		}
 	}
 }
+
+
+
+
+if (facingEast()) {
+	east();
+}
+else {
+	west();
+}
