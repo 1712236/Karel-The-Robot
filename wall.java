@@ -5,6 +5,7 @@ public class wall extends SuperKarel {
 		while (frontIsClear()) {
 			move();
 			if (frontIsBlocked()) {
+				turnLeft();
 				move();
 			}
 		}
