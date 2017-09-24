@@ -1,6 +1,7 @@
 import stanford.karel.SuperKarel;
 
 public class try1 extends SuperKarel {
+	// main program 
 	public void run() {
 		begin();
 		while(facingEast()) {
@@ -10,7 +11,9 @@ public class try1 extends SuperKarel {
 			}
 		}
 	}
+	// main program ends here
 	
+	// new functions
 	
 	private void west() {
 		turnRight();
