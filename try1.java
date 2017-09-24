@@ -49,7 +49,6 @@ public class try1 extends SuperKarel {
 		if (beepersPresent()) {
 			pickBeeper();
 		}
-		
 		for (int k = 0; k < 9; k++) {
 			move();
 			if (beepersPresent()) {
