@@ -12,12 +12,7 @@ public class try1 extends SuperKarel {
 				west();
 			}
 		}
-		turnLeft();
-		turnLeft();
-		turnLeft();
-		turnLeft();
-		turnLeft();
-		turnLeft();
+
 	}
 	// main program ends here
 	
@@ -59,5 +54,9 @@ public class try1 extends SuperKarel {
 				pickBeeper();
 			}
 		}
+	}
+	private void finish() {
+		if (int r = 0; r < 6; r++)
+			turnLeft();
 	}
 }
