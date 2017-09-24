@@ -14,6 +14,10 @@ public class try1 extends SuperKarel {
 		}
 		turnLeft();
 		turnLeft();
+		turnLeft();
+		turnLeft();
+		turnLeft();
+		turnLeft();
 	}
 	// main program ends here
 	
