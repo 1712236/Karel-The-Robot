@@ -56,7 +56,8 @@ public class try1 extends SuperKarel {
 		}
 	}
 	private void finish() {
-		if (int r = 0; r < 6; r++)
+		if (int r = 0; r < 6; r++) {
 			turnLeft();
+		}
 	}
 }
