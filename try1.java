@@ -4,9 +4,11 @@ public class try1 extends SuperKarel {
 	// main program 
 	public void run() {
 		begin();
-		while(facingEast()) {
-			east();
-			if (facingWest()) {
+		for (int k = 0; k < 9; k++) {
+			if (facingEast()) {
+				east();
+			}
+			else {
 				west();
 			}
 		}
