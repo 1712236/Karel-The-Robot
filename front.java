@@ -5,6 +5,7 @@ public class front extends SuperKarel {
 		while (frontIsClear()) {
 			putBeeper();
 			move();
+			turnLeft();
 		}
 	}
 }
