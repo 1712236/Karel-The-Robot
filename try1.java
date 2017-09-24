@@ -11,5 +11,6 @@ public class try1 extends SuperKarel {
 		turnLeft();
 		move();
 		turnLeft();
+		pickBeeper();
 	}
 }
