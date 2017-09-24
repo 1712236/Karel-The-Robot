@@ -2,11 +2,13 @@ import stanford.karel.*;
 
 public class front extends SuperKarel {
 	public void run() {
-		while (frontIsClear()) {
+		for (int r = 0; r < 2; r++) {
+			while (frontIsClear()) {
+				putBeeper();
+				move();
+			}
 			putBeeper();
-			move();
+			turnLeft();
 		}
-		putBeeper();
-		turnLeft();
 	}
 }
