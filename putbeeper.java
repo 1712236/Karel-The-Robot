@@ -4,11 +4,11 @@ public class putbeeper extends SuperKarel {
 	public void run() {
 		while (frontIsClear()) {
 			move();
-			if (beepersPresent()) {
-				pickBeeper();
+			if (noBeepersPresent()) {
+				putBeeper();
 			}
 			else {
-				putBeeper();
+				pickBeeper();
 			}
 			if (frontIsBlocked()) {
 				turnLeft();
