@@ -1,4 +1,10 @@
+import stanford.karel.*;
 
-public class beeper {
-
+public class beeper extends SuperKarel {
+	public void run(){
+		while(frontIsBlocked()){
+			move();
+		}
+	}
 }
+
