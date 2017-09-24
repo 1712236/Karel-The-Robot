@@ -3,11 +3,8 @@ import stanford.karel.SuperKarel;
 public class try1 extends SuperKarel {
 	public void run() {
 		begin();
-		if (facingEast()) {
+		while(facingEast()) {
 			east();
-		}
-		else {
-			west();
 		}
 	}
 	
