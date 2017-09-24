@@ -16,6 +16,7 @@ public class beeper extends SuperKarel {
 				pickBeeper();
 				turnRight();
 				turnRight();
+				turnRight();
 				move();
 			}
 		}
