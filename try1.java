@@ -5,6 +5,9 @@ public class try1 extends SuperKarel {
 		begin();
 		while(facingEast()) {
 			east();
+			if (facingWest()) {
+				west();
+			}
 		}
 	}
 	
