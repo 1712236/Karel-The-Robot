@@ -12,6 +12,7 @@ public class try1 extends SuperKarel {
 				west();
 			}
 		}
+		turnLeft();
 	}
 	// main program ends here
 	
