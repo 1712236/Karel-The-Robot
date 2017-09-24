@@ -13,6 +13,7 @@ public class beeper extends SuperKarel {
 			if (frontIsBlocked()) {
 				turnLeft();
 				move();
+				pickBeeper();
 				turnLeft();
 				move();
 			}
