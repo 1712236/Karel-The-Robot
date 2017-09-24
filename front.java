@@ -9,6 +9,7 @@ public class front extends SuperKarel {
 			}
 			putBeeper();
 			turnLeft();
+			move();
 		}
 	}
 }
