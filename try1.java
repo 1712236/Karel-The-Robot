@@ -36,17 +36,7 @@ public class try1 extends SuperKarel {
 				pickBeeper();
 			}
 		}
-		if (facingWest()) {
-			turnRight();
-			move();
-			turnRight();
-			for (int k = 0; k < 9; k++) {
-				move();
-				if (beepersPresent()) {
-					pickBeeper();
-				}
-			}
-		}
+		west();
 	}
 	private void west() {
 		turnRight();
