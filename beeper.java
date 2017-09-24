@@ -2,12 +2,9 @@ import stanford.karel.*;
 
 public class beeper extends SuperKarel {
 	public void run(){
-		if(frontIsClear() && beepersPresent()) {
+		while (frontIsClear() && beepersPresent()) {
 			pickBeeper();
 			move();
-		}
-		else {
-			;
 		}
 	}
 }
