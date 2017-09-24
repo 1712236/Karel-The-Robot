@@ -5,7 +5,7 @@ public class front extends SuperKarel {
 		for (int r = 0; r < 4; r++) {
 			while (noBeepersPresent()) {
 				putBeeper();
-				move();
+				
 			}
 			turnLeft();
 			move();
