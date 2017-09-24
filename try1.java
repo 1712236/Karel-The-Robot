@@ -19,5 +19,7 @@ public class try1 extends SuperKarel {
 			}
 		}
 		turnRight();
+		move();
+		turnRight();
 	}
 }
