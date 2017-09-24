@@ -27,3 +27,10 @@ if (facingEast()) {
 else {
 	west();
 }
+
+while(facingEast()) {
+	east();
+	if (facingWest()) {
+		west();
+	}
+} 
