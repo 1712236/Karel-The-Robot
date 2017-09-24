@@ -1,4 +1,7 @@
+import stanford.karel.SuperKarel;
 
-public class putbeeper {
-
+public class putbeeper extends SuperKarel {
+	public void run() {
+		
+	}
 }
