@@ -68,7 +68,7 @@ public class try1 extends SuperKarel {
 			}
 		}
 	}
-	private void begin() {
+	private void start() {
 		for (int k = 0; k < 9; k++) {
 			move();
 			if (beepersPresent()) {
