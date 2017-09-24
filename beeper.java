@@ -7,6 +7,9 @@ public class beeper extends SuperKarel {
 			if (beepersPresent()) {
 				pickBeeper();
 			}
+			else {
+				;
+			}
 		}
 			}
 }
