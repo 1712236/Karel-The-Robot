@@ -17,20 +17,3 @@ public class putbeeper extends SuperKarel {
 		}
 	}
 }
-
-
-
-
-if (facingEast()) {
-	east();
-}
-else {
-	west();
-}
-
-while(facingEast()) {
-	east();
-	if (facingWest()) {
-		west();
-	}
-} 
