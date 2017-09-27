@@ -10,6 +10,7 @@ public class rakib extends SuperKarel {
 				putBeeper();
 			}
 			putBeeper();
+			//rakib
 		}
 	}
 }
