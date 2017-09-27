@@ -7,8 +7,9 @@ public class moveBackward extends SuperKarel {
 	
 	private void moveBackward() {
 		move();
-		putBeeper();
+		
 		turnAround();
+		putBeeper();
 		move();
 		turnAround();
 	}
