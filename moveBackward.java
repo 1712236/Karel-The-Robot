@@ -6,7 +6,6 @@ public class moveBackward extends SuperKarel {
 	}
 	
 	private void moveBackward() {
-		turnAround();
 		move();
 		turnAround();
 	}
